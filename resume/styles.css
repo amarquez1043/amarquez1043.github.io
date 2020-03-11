@@ -21,8 +21,33 @@ img {
 }
 
 p {
-  font-size: 20px;
+  font-size: 15px;
   font-family: 'Merriweather', serif;
+  color: #011638;
+}
+
+h2 {
+  font-size: 22px;
+  color: #d499b9;
+  font-family: 'Caladea', serif;
+}
+
+h3 {
+  font-size: 18px;
+  color: #617E9E;
+  font-family: 'Caladea', serif;
+}
+
+h4 {
+  font-size: 16px;
+  color: #011638;
+  font-family: 'Merriweather', serif;
+}
+
+h5 {
+  color: #E8C1C5;
+  font-family: 'Merriweather', serif;
+  font-size: 16px;
 }
 
 .photo {
@@ -33,6 +58,10 @@ ul {
   font-size: 20px;
   font-family: 'Merriweather', serif;
   color: #617E9E;
+}
+
+#skills {
+  font-size: 14px;
 }
 
 #pages{
