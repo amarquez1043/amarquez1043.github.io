@@ -1,0 +1,61 @@
+/*font-family: 'Merriweather', serif;
+font-family: 'Caladea', serif;*/
+body {
+  max-width: 60%;
+  margin: auto;
+}
+
+h1 {
+  font-size: 36px;
+  color: #33485e;
+  font-family: 'Caladea', serif;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 auto;
+  border-bottom-color: #517BA8;
+}
+
+ul {
+  font-size: 20px;
+  font-family: 'Merriweather', serif;
+  color: #617E9E;
+}
+
+img {
+  max-width: 300px;
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+  font-family: 'Merriweather', serif;
+}
+
+.photo {
+  text-align: center;
+}
+
+#pages{
+  text-align: center;
+  color: #617E9E;
+}
+
+#pages ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#pages ul li {
+  display: inline-block;
+}
+
+#pages ul li::after {
+  /*target the li's in social and target the space immediately after them*/
+  content: "|";
+  padding: 6px;
+}
+
+#pages ul li:last-child::after {
+  /*target same as above, but only the last li element in the list*/
+  content: "";
+}
