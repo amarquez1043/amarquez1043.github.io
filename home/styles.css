@@ -59,3 +59,38 @@ ul {
   /*target same as above, but only the last li element in the list*/
   content: "";
 }
+
+.color1 {
+  background-color: #617E9E;
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+}
+
+.color2 {
+  background-color: #011638;
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+}
+
+.color3 {
+  background-color: #2e294e;
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+}
+
+.color4 {
+  background-color: #d499b9;
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+}
+
+.color5 {
+  background-color: #e8c1c5;
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+}
