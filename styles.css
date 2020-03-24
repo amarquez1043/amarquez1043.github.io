@@ -1,0 +1,224 @@
+/*font-family: 'Merriweather', serif;
+font-family: 'Caladea', serif;*/
+body {
+  max-width: 100%;
+  margin: auto;
+  background-color: #e8c1c5;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  background-color: #617E9E;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  background-color: #e8c1c5;
+}
+
+h1 {
+  font-size: 36px;
+  color: #ffffff;
+  font-family: 'Caladea', serif;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 12px;
+}
+
+h2 {
+  font-size: 22px;
+  color: #ffffff;
+  font-family: 'Caladea', serif;
+  text-align: center;
+  line-height: 12px;
+}
+
+h3 {
+  font-size: 18px;
+  color: #ffffff;
+  font-family: 'Caladea', serif;
+  margin: 0 auto;
+  line-height: 12px;
+}
+
+h4 {
+  font-size: 16px;
+  color: #011638;
+  font-family: 'Merriweather', serif;
+  margin: 0 auto;
+  line-height: 20px;
+}
+
+h5 {
+  color: #617E9E;
+  font-family: 'Merriweather', serif;
+  font-size: 12px;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 300px;
+  text-align: center;
+}
+
+p {
+  font-size: 16px;
+  font-family: 'Merriweather', serif;
+}
+
+#majors {
+  background-color: #617E9E;
+  margin: 0 auto;
+  padding: 0px 2px;
+}
+
+.photo {
+  text-align: center;
+}
+
+ul {
+  font-size: 20px;
+  font-family: 'Merriweather', serif;
+  color: #617E9E;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+#intro-text {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  text-align: center;
+  margin: 200px 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  right: 0px;
+  -webkit-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
+}
+
+#bgimage {
+  background-image: url("1marquez-headshot.jpg");
+  min-height: 800px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.bio {
+  margin: 30px 40px 50px 40px;
+}
+
+#for-more {
+  font-size: 16px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#contact-info{
+  text-align: center;
+  color: #617E9E;
+  padding-bottom: 40px;
+}
+
+#contact-info ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#contact-info ul li {
+  display: inline-block;
+}
+
+#contact-info ul li::after {
+  /*target the li's in social and target the space immediately after them*/
+  content: "|";
+  padding: 6px;
+}
+
+#contact-info ul li:last-child::after {
+  /*target same as above, but only the last li element in the list*/
+  content: "";
+}
+
+.fa {
+  padding: 20px;
+  font-size: 18px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+/*
+.color1 {
+  background-color: #617E9E;
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+}
+
+.color2 {
+  background-color: #011638;
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+}
+
+.color3 {
+  background-color: #2e294e;
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+}
+
+.color4 {
+  background-color: #d499b9;
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+}
+
+.color5 {
+  background-color: #e8c1c5;
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+}*/
