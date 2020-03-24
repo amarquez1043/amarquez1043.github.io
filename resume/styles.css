@@ -6,6 +6,36 @@ body {
   background-color: #e8c1c5;
 }
 
+.navbar ul {
+  list-style-type: none;
+  margin: 0 auto;
+  text-align: center;
+  overflow: hidden;
+  background-color: #617E9E;
+
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  background-color: #e8c1c5;
+}
+
+#header {
+  font-size: 26px;
+  line-height: 8px;
+}
+
 h1 {
   font-size: 36px;
   color: #2E294E;
@@ -67,6 +97,12 @@ h1 {
   background-color: #617E9E;
   padding-left: 2px;
   padding-right: 2px;
+}
+
+#email {
+  margin-top: 15px;
+  font-weight: normal;
+  font-size: 21px;
 }
 
 .page-text {

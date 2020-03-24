@@ -6,6 +6,31 @@ body {
   background-color: #e8c1c5;
 }
 
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 500px;
+  overflow: hidden;
+  background-color: #617E9E;
+
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  background-color: #e8c1c5;
+}
+
 h1 {
   font-size: 36px;
   color: #ffffff;
