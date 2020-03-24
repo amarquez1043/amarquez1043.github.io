@@ -1,32 +1,111 @@
 /*font-family: 'Merriweather', serif;
 font-family: 'Caladea', serif;*/
 body {
-  max-width: 60%;
+  max-width: 100%;
   margin: auto;
+  background-color: #e8c1c5;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0 auto;
+  text-align: center;
+  overflow: hidden;
+  background-color: #617E9E;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  background-color: #e8c1c5;
 }
 
 h1 {
   font-size: 36px;
-  color: #2E294E;
+  color: #ffffff;
   font-family: 'Caladea', serif;
   font-weight: bold;
   text-align: center;
   margin: 0 auto;
-  border-bottom-color: #517BA8;
+  line-height: 12px;
 }
 
-img {
-  max-width: 300px;
+#aboutmetitle {
+  color: #ffffff;
+  line-height: 12px;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+#intro-text {
+  position: absolute;
+  left: 0;
+  top: 50%;
   text-align: center;
+  margin: 200px 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  right: 0px;
+  -webkit-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
+}
+
+#bgimage {
+  background-image: url("1marquez-headshot.jpg");
+  min-height: 800px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
 }
 
 p {
-  font-size: 20px;
+  font-size: 15px;
   font-family: 'Merriweather', serif;
+  color: #011638;
 }
 
-.photo {
+h2 {
+  font-size: 22px;
+  color: #2e294e;
+  font-family: 'Caladea', serif;
   text-align: center;
+}
+
+h3 {
+  font-size: 18px;
+  color: #617E9E;
+  font-family: 'Caladea', serif;
+  margin: 0 auto;
+}
+
+h4 {
+  font-size: 16px;
+  color: #011638;
+  font-family: 'Merriweather', serif;
+  margin: 0 auto;
+  line-height: 20px;
+  padding-bottom: 30px;
+}
+
+h5 {
+  color: #617E9E;
+  font-family: 'Merriweather', serif;
+  font-size: 12px;
+  margin: 0 auto;
 }
 
 ul {
@@ -35,31 +114,11 @@ ul {
   color: #617E9E;
 }
 
-#pages{
+.clips {
   text-align: center;
-  color: #617E9E;
 }
 
-#pages ul {
-  list-style-type: none;
-  padding-left: 0;
-}
-
-#pages ul li {
-  display: inline-block;
-}
-
-#pages ul li::after {
-  /*target the li's in social and target the space immediately after them*/
-  content: "|";
-  padding: 6px;
-}
-
-#pages ul li:last-child::after {
-  /*target same as above, but only the last li element in the list*/
-  content: "";
-}
-
+/*
 .color1 {
   background-color: #617E9E;
   margin: 0 auto;
@@ -93,4 +152,4 @@ ul {
   margin: 0 auto;
   width: 100px;
   height: 100px;
-}
+}*/

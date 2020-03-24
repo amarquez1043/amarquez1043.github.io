@@ -12,7 +12,6 @@ body {
   text-align: center;
   overflow: hidden;
   background-color: #617E9E;
-
 }
 
 .navbar li {
@@ -31,26 +30,36 @@ body {
   background-color: #e8c1c5;
 }
 
-#header {
-  font-size: 26px;
-  line-height: 8px;
-}
-
 h1 {
   font-size: 36px;
-  color: #2E294E;
+  color: #ffffff;
   font-family: 'Caladea', serif;
   font-weight: bold;
   text-align: center;
   margin: 0 auto;
+  line-height: 12px;
 }
 
-.name {
-  background-color: #e8c1c5;
-  margin-left: 150px;
-  margin-right: 150px;
-  margin-top: 12px;
-  margin-bottom: 12px;
+#aboutmetitle {
+  color: #ffffff;
+  line-height: 12px;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+#intro-text {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  text-align: center;
+  margin: 200px 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  right: 0px;
+  -webkit-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
 }
 
 #bgimage {
@@ -204,35 +213,10 @@ ul {
   font-size: 14px;
 }
 
-#pages{
-  text-align: center;
-  color: #617E9E;
-}
-
-#pages ul {
-  list-style-type: none;
-  padding-left: 0;
-}
-
-#pages ul li {
-  display: inline-block;
-}
-
-#pages ul li::after {
-  /*target the li's in social and target the space immediately after them*/
-  content: "|";
-  padding: 6px;
-}
-
-#pages ul li:last-child::after {
-  content: "";
-}
-
-/* #pages ul li:last-child::after {} targets same as above, but only the last li element in the list*/
-
 #contact-info{
   text-align: center;
   color: #617E9E;
+  padding-top: 60px;
 }
 
 #contact-info ul {
@@ -255,10 +239,38 @@ ul {
   content: "";
 }
 
+.fa {
+  padding: 20px;
+  font-size: 18px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
 #education{
   text-align: center;
   color: #617E9E;
-  padding-bottom: 100px;
+  padding-bottom: 20px;
 }
 
 #education ul {
@@ -283,6 +295,34 @@ ul {
   /*target same as above, but only the last li element in the list*/
   content: "";
 }
+
+/*Things potentially needed for my future reference:*/
+
+/*#pages{
+  text-align: center;
+  color: #617E9E;
+}
+
+#pages ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#pages ul li {
+  display: inline-block;
+}
+
+#pages ul li::after {
+  target the li's in social and target the space immediately after them
+  content: "|";
+  padding: 6px;
+}
+
+#pages ul li:last-child::after {
+  content: "";
+}*/
+
+/* #pages ul li:last-child::after {} targets same as above, but only the last li element in the list*/
 
 /*
 .color1 {

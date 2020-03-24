@@ -9,10 +9,8 @@ body {
 .navbar ul {
   list-style-type: none;
   margin: 0;
-  padding-left: 500px;
   overflow: hidden;
   background-color: #617E9E;
-
 }
 
 .navbar li {
@@ -82,6 +80,12 @@ p {
   font-family: 'Merriweather', serif;
 }
 
+#majors {
+  background-color: #617E9E;
+  margin: 0 auto;
+  padding: 0px 2px;
+}
+
 .photo {
   text-align: center;
 }
@@ -90,31 +94,6 @@ ul {
   font-size: 20px;
   font-family: 'Merriweather', serif;
   color: #617E9E;
-}
-
-#pages{
-  text-align: center;
-  color: #617E9E;
-}
-
-#pages ul {
-  list-style-type: none;
-  padding-left: 0;
-}
-
-#pages ul li {
-  display: inline-block;
-}
-
-#pages ul li::after {
-  /*target the li's in social and target the space immediately after them*/
-  content: "|";
-  padding: 6px;
-}
-
-#pages ul li:last-child::after {
-  /*target same as above, but only the last li element in the list*/
-  content: "";
 }
 
 .container {
@@ -132,7 +111,6 @@ ul {
   right: 0px;
   -webkit-transition: all 0.7s ease-in-out;
     transition: all 0.7s ease-in-out;
-
 }
 
 #bgimage {
@@ -158,6 +136,7 @@ ul {
 #contact-info{
   text-align: center;
   color: #617E9E;
+  padding-bottom: 40px;
 }
 
 #contact-info ul {
@@ -178,6 +157,34 @@ ul {
 #contact-info ul li:last-child::after {
   /*target same as above, but only the last li element in the list*/
   content: "";
+}
+
+.fa {
+  padding: 20px;
+  font-size: 18px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
 }
 
 /*
