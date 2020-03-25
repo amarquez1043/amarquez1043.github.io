@@ -296,6 +296,13 @@ ul {
   content: "";
 }
 
+.credit {
+  text-align: center;
+  font-size: 14px;
+  color: #617E9E;
+  font-family: 'Caladea', serif;
+}
+
 /*Things potentially needed for my future reference:*/
 
 /*#pages{

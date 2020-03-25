@@ -187,6 +187,13 @@ ul {
   color: white;
 }
 
+.credit {
+  text-align: center;
+  font-size: 14px;
+  color: #617E9E;
+  font-family: 'Caladea', serif;
+}
+
 /*
 .color1 {
   background-color: #617E9E;
