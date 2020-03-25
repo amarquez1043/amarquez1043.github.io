@@ -40,7 +40,7 @@ h1 {
   line-height: 12px;
 }
 
-#aboutmetitle {
+.aboutmetitle {
   color: #ffffff;
   line-height: 12px;
 }
@@ -72,7 +72,7 @@ h1 {
   margin: 0 auto;
 }
 
-#bgimage2 {
+.bgimage2 {
   background-image: url("impeachment-arrow.png");
   min-height: 800px;
   background-attachment: fixed;
@@ -82,7 +82,7 @@ h1 {
   margin: 0 auto;
 }
 
-#bgimage3 {
+.bgimage3 {
   background-image: url("pool-duty.jpeg");
   min-height: 800px;
   background-attachment: fixed;
@@ -92,7 +92,7 @@ h1 {
   margin: 0 auto;
 }
 
-#bgimage4 {
+.bgimage4 {
   background-image: url("sga.jpeg");
   min-height: 800px;
   background-attachment: fixed;
@@ -102,7 +102,7 @@ h1 {
   margin: 0 auto;
 }
 
-#highlight {
+.highlight {
   background-color: #617E9E;
   padding-left: 2px;
   padding-right: 2px;
@@ -131,7 +131,7 @@ p {
   color: #011638;
 }
 
-#photo-caption {
+.photo-caption {
   font-size: 14px;
   font-family: 'Merriweather', serif;
   color: #011638;
@@ -139,13 +139,13 @@ p {
 }
 
 .floating-caption {
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: 80px;
+  margin-right: 80px;
   padding-left: 20px;
   padding-right: 20px;
 }
 
-#photo-credit {
+.photo-credit {
 font-size: 10px;
 font-family: 'Merriweather', serif;
 color: #011638;
@@ -157,7 +157,7 @@ color: #011638;
   margin: 0 auto;
 }
 
-#majors {
+.majors {
   background-color: #617E9E;
   margin: 0 auto;
   padding: 0px 2px;
@@ -267,13 +267,13 @@ ul {
   color: white;
 }
 
-#education{
+.education{
   text-align: center;
   color: #617E9E;
   padding-bottom: 20px;
 }
 
-#education ul {
+.education ul {
   list-style-type: none;
   padding-left: 0;
   font-size: 14px;
@@ -281,17 +281,17 @@ ul {
   color: #617E9E;
 }
 
-#education ul li {
+.education ul li {
   display: inline-block;
 }
 
-#education ul li::after {
+.education ul li::after {
   /*target the li's in social and target the space immediately after them*/
   content: "|";
   padding: 6px;
 }
 
-#education ul li:last-child::after {
+.education ul li:last-child::after {
   /*target same as above, but only the last li element in the list*/
   content: "";
 }
