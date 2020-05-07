@@ -89,7 +89,7 @@ h2 {
 
 h3 {
   font-size: 18px;
-  color: #617E9E;
+  color: ##011638;
   font-family: 'Caladea', serif;
   margin: 0 auto;
 }
@@ -108,6 +108,14 @@ h5 {
   font-family: 'Merriweather', serif;
   font-size: 12px;
   margin: 0 auto;
+}
+
+a {
+  color: #617E9E;
+}
+
+a:hover {
+  color: #23547A;
 }
 
 ul {

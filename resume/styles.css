@@ -200,6 +200,14 @@ h5 {
   margin: 0 auto;
 }
 
+a {
+  color: #617E9E;
+}
+
+a:hover {
+  color: #23547A;
+}
+
 .photo {
   text-align: center;
 }
